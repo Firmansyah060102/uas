@@ -62,8 +62,17 @@
             <input type="number" class="form-control" id="jumlah_peserta" required>
           </div>
           <div class="mb-3">
-            <label for="jumlah_peserta" class="form-label">Destinasi/Paket</label>
-            <input type="number" class="form-control" id="jumlah_peserta" required>
+            <label for="pilihan" class="form-label">Pilihan</label>
+        <select class="form-select" id="pilihan" name="pilihan">
+          <option selected disabled>Pilih salah satu</option>
+          <option value="pilihan1">Paket Samosir</option>
+          <option value="pilihan2">Paket Sibolga</option>
+          <option value="pilihan3">Paket Batu Bara</option>
+        </select>
+          </div>
+           <div class="mb-3">
+            <label for="tanggal" class="form-label">Tanggal Keberangkatan</label>
+        <input type="date" class="form-control" id="tanggal" name="tanggal">
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
@@ -74,7 +83,7 @@
           <div class="card-body">
             <h5 class="card-title">Transfer Bank</h5>
             <p class="card-text">Silakan transfer ke nomor rekening berikut:</p>
-            <p class="card-text">Bank: Bank ABC</p>
+            <p class="card-text">Bank: Bank BCA</p>
             <p class="card-text">Nomor Rekening: 1234567890</p>
           </div>
         </div>
